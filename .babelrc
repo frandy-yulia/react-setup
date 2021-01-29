@@ -1,0 +1,12 @@
+{
+    "presets": ["babel-preset-env", "stage-0", "react"],
+    "plugins": [
+        "transform-decorators-legacy",
+        ["module-resolver", {
+          "root": ["./src"],
+          "alias": {
+            "common": "./common"
+          }
+        }]
+    ]
+}
